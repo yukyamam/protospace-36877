@@ -321,3 +321,8 @@ a {
     width: 100%;
   }
 }
+
+/* バリデーションエラー時に、ビューが崩れないように */
+.field_with_errors {
+  display: contents;
+}
