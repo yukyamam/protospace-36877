@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :prototypes do 
     resources :comments, only: [:index, :create]
   end
+  resources :users, only: :show
 end
 
 #元々の5行目(7つのアクション終了時)
